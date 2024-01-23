@@ -5,20 +5,20 @@ export default function Header() {
         <div className='container'>
             <div className='col-md-12'>
             <nav className="navbar navbar-expand-lg navbar-light">
-                    <a className="navbar-brand" href="#">Launch<small className=''>.</small></a>
+                    <a className="navbar-brand" href="#"><strong>Launch</strong><small className='text-primary'>.</small></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
-                                <a className="nav-link" href="#home">Home</a>
+                            <li className="nav-item active mx-3">
+                                <a className="nav-link" href="#home"><small>Home</small></a>
                             </li>
 
                             <li className="nav-item dropdown show">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Dropdown
+                                    <small>Dropdown</small>
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a className="dropdown-item" href="#">Action</a>
@@ -27,24 +27,24 @@ export default function Header() {
                                     <a className="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#features">Features</a>
+                            <li className="nav-item mx-3">
+                                <a className="nav-link" href="#features"><small>Features</small></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#price">Pricing</a>
+                                <a className="nav-link" href="#price"><small>Pricing</small></a>
+                            </li>
+                            <li className="nav-item mx-3">
+                                <a className="nav-link" href="#about"><small>About</small></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <a className="nav-link" href="#contact"><small>Contact</small></a>
                             </li>
                         </ul>
                     </div>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <form class="form-inline my-lg-0">
-                    <button class="btn btn-outline-primary  my-sm-0 rounded-pill" type="submit">Sign in</button>
-                    <button class="btn btn-outline-primary mx-2 my-sm-0 rounded-pill" type="submit">Register</button>
+                    <a class="btn btn-outline-dark my-sm-0 rounded-pill" type="submit"><small>Sign in</small></a>
+                    <a class="btn btn-primary mx-2 my-sm-0 rounded-pill" type="submit"><small>Register</small></a>
                 </form>
             </div>
                 </nav>

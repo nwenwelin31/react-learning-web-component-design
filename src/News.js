@@ -8,8 +8,8 @@ export default function News() {
         <div className='news bg-light'>
              <div className='container'>
             <div className='text-center mb-4'>
-                <h4 className='display-5'><strong>Our News</strong></h4>
-                <p>Far from the countries Vokalia and Consonantia</p>
+                <h4 className='display-6'><strong>Our News</strong></h4>
+                <p className='text-secondary'>Far from the countries Vokalia and Consonantia</p>
             </div>
             <div className='row'>
                 <div className='col-md-4'>

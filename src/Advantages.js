@@ -9,7 +9,7 @@ export default function Advantages() {
         <div className='container'>
             <div className='text-center m-5'>
                 <h2>Advantage of using our products</h2>
-                <p>Far from the countries Vokalia and Consonantia</p>
+                <p className='text-secondary'>Far from the countries Vokalia and Consonantia</p>
             </div>
             <div className='row m-t-4 mb-4'>
                 <div className='col-md-6'>
