@@ -11,7 +11,7 @@ export default function Services() {
                 <div className='col-md-5'>
                     <span className='text-primary'><small>DIGITAL SERVICES</small></span>
                     <h3 className='fs-1'>Selling Digital <br/>Services</h3>
-                    <div class="card-body text-secondary">
+                    <div class="card-body text-secondary mb-2">
                         <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
                         <i className='text-primary'><FaCheck /> </i> There live the blind texts
                         <br /><br />

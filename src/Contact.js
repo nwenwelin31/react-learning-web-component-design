@@ -39,7 +39,7 @@ export default function Contact() {
                             <textarea class="form-control border-top-0 border-start-0 border-end-0" id="form6Example7" rows="4"></textarea>
                         </div>
 
-                        <a href=""  class="btn btn-primary rounded-pill" type="submit"><small>SEND MESSAGE</small></a>
+                        <a href=""  class="btn btn-primary rounded-5" type="submit"><small>SEND MESSAGE</small></a>
                     </form>
                 </div>
                 <div className='col-md-4'>
