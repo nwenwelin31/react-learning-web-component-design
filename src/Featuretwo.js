@@ -16,7 +16,7 @@ export default function Featuretwo() {
           <div className='col-md-5 mx-5'>
               <div className='ftwo row p-3'>
                   <div className='col-6 col-sm-2'>
-                      <button className='btn btn-info text-white'><BsAppIndicator /></button>
+                      <button className='btn btn-info text-white'><BsAppIndicator/></button>
 
                   </div>
                   <div class="col-10 col-sm-10">
@@ -26,7 +26,7 @@ export default function Featuretwo() {
               </div>
               <div className='ftwo row p-3'>
                   <div className='col-6 col-sm-2'>
-                      <button className='btn btn-warning text-white'><BsArrowRepeat /></button>
+                      <button className='btn btn-warning text-white'><BsArrowRepeat/></button>
 
                   </div>
                   <div class="col-10 col-sm-10">
@@ -36,7 +36,7 @@ export default function Featuretwo() {
               </div>
               <div className='ftwo row p-3'>
                   <div className='col-6 col-sm-2'>
-                      <button className='btn btn-danger'><BsBriefcase /></button>
+                      <button className='btn btn-danger'><BsBriefcase/></button>
 
                   </div>
                   <div class="col-10 col-sm-10">
@@ -46,7 +46,7 @@ export default function Featuretwo() {
               </div>
               <div className='ftwo row p-3'>
                   <div className='col-6 col-sm-2'>
-                      <button className='btn btn-primary'><BsCollection /></button>
+                      <button className='btn btn-primary'><BsCollection/></button>
 
                   </div>
                   <div class="col-10 col-sm-10">

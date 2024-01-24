@@ -11,7 +11,7 @@ export default function Featurethree() {
             <div className='row mt-3 '>
                 <div className='col-md-3'>
                     <div className='col-6 col-sm-2 mt-4 mb-4'>
-                        <button className='btn btn-info text-white'><BsAppIndicator /></button>
+                        <button className='btn btn-info text-white'><BsAppIndicator/></button>
                     </div>
                     <div class="col-10 col-sm-10">
                         <p>Grow Your Business</p>
@@ -20,7 +20,7 @@ export default function Featurethree() {
                 </div>
                 <div className='col-md-3'>
                     <div className='col-6 col-sm-2 mt-4 mb-4'>
-                        <button className='btn btn-warning text-white'><BsArrowRepeat /></button>
+                        <button className='btn btn-warning text-white'><BsArrowRepeat/></button>
                     </div>
                     <div class="col-10 col-sm-10">
                         <p>Build Products</p>
@@ -30,7 +30,7 @@ export default function Featurethree() {
                 </div>
                 <div className='col-md-3'>
                     <div className='col-6 col-sm-2 mt-4 mb-4'>
-                        <button className='btn btn-danger'><BsBriefcase /></button>
+                        <button className='btn btn-danger'><BsBriefcase/></button>
                     </div>
                     <div class="col-10 col-sm-10">
                         <p>Success Every Day</p>
@@ -40,7 +40,7 @@ export default function Featurethree() {
                 </div>
                 <div className='col-md-3'>
                     <div className='col-6 col-sm-2 mt-4 mb-4'>
-                        <button className='btn btn-primary'><BsCollection /></button>
+                        <button className='btn btn-primary'><BsCollection/></button>
                     </div>
                     <div class="col-10 col-sm-10">
                         <p>Bring Ideas to Life</p>

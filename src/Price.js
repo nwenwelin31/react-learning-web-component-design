@@ -11,7 +11,7 @@ export default function Price() {
                 </div>
                 <div className='row m-5'>
                     <div className='col-md-4'>
-                        <div class="card border-0 rounded-5">
+                        <div class="card shadow border-0 rounded-5">
                             <div class="card-body text-center">
                                 <h4 className='m-4'>Free</h4>
                                 <h4 className='text-primary display-6'><sup>$</sup>0</h4>
