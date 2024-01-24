@@ -2,22 +2,23 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div className='container'>
-            <div className='col-md-12'>
-            <nav className="navbar navbar-expand-lg navbar-light">
-                    <a className="navbar-brand" href="#"><strong>Launch</strong><small className='text-primary'>.</small></a>
+        <div>
+ 
+            <nav className="card shadow border-0 navbar navbar-expand-sm navbar-light fixed-top">
+            <div class="container-fluid" style={{ paddingLeft:'9%',paddingRight:'9%' }}>
+            <a className="navbar-brand" href="#"><strong>Launch</strong><small className='text-primary'>.</small></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active mx-3">
+                            <li className="nav-item mx-3">
                                 <a className="nav-link" href="#home"><small>Home</small></a>
                             </li>
 
-                            <li className="nav-item dropdown show">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <small>Dropdown</small>
                                 </a>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,15 +42,16 @@ export default function Header() {
                             </li>
                         </ul>
                     </div>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  
                 <form class="form-inline my-lg-0">
                     <a class="btn btn-outline-dark my-sm-0 rounded-pill" type="submit"><small>Sign in</small></a>
                     <a class="btn btn-primary mx-2 my-sm-0 rounded-pill" type="submit"><small>Register</small></a>
                 </form>
+        
             </div>
+                    
                 </nav>
    
             </div>
-        </div>
     );
 }

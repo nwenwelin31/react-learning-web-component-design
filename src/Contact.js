@@ -6,9 +6,9 @@ import { TiWorld } from "react-icons/ti";
 
 export default function Contact() {
     return (
-        <div className='container' id='contact'>
+        <div className='container pt-5' id='contact'>
             <div className='text-center mb-4 mt-5'>
-                <h4 className='display-6'>Get In Touch</h4>
+                <h3 className='fs-1'>Get In Touch</h3>
                 <p className='text-secondary'>Far from the countries Vokalia and Consonantia</p>
             </div>
             <div className='row mt-5'>
@@ -39,11 +39,11 @@ export default function Contact() {
                             <textarea class="form-control border-top-0 border-start-0 border-end-0" id="form6Example7" rows="4"></textarea>
                         </div>
 
-                        <button type="button" class="btn btn-primary mb-4 rounded-pill p-3"><small>SEND MESSAGE</small></button>
+                        <a href=""  class="btn btn-primary rounded-pill" type="submit"><small>SEND MESSAGE</small></a>
                     </form>
                 </div>
                 <div className='col-md-4'>
-                    <p>Contact Info</p>
+                    <p className='fs-5'>Contact Info</p>
                     <p><IoLocationSharp /> <span>43 Raymouth Rd. Baltemoer, London 3910</span></p>
                     <p><FaPhoneFlip />  <span> +1(123)-456-7890</span></p>
                     <p><FaPhoneFlip />  <span> +1(123)-456-7890</span></p>
