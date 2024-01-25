@@ -5,10 +5,10 @@ import person from './person.avif';
 import './feedback.css';
 export default function Feedback() {
   return (
-    <>
+ 
       <div className="container" id='feedback'>
         <div className="row">
-          <div className='col-md-4 text-center'>
+          <div className='col-md-4'>
             <span className='text-primary'>TESTIMONIALS</span>
             <h4 className='display-6'>Our Customers Feedbck</h4>
             <a href='#' className='btn btn-secondary' data-bs-target="#demo" data-bs-slide="prev"><FaArrowLeft /></a>
@@ -92,6 +92,6 @@ export default function Feedback() {
           </div>
         </div>
       </div>
-    </>
+ 
   )
 }

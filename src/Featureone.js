@@ -9,17 +9,17 @@ export default function Services() {
     return (
         <div className='feature' id='features'>
             <div className='container'>
-            <div className='row d-flex'>
-                <div className='col-md-6 col-sm-12'>
+            <div className='row d-flex justify-content-between'>
+                <div className='col-md-5 col-sm-12'>
                     <span className='text-primary'><small>DIGITAL SERVICES</small></span>
                     <h3 className='fs-1'>Selling Digital <br/>Services</h3>
-                    <div className="card-body text-secondary mb-2">
-                        <p className="card-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
+                    <div className="text-secondary mb-2">
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
                         <i className='text-primary'><FaCheck /> </i> There live the blind texts
                         <br /><br />
                         <i className='text-primary'><FaCheck /> </i> Far far away behind the word
                     </div>
-                    <div>
+                    <div className='mt-4'>
                         <p><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     </div>
                     <div className="row">
@@ -33,7 +33,7 @@ export default function Services() {
                         </div>
                     </div>
                 </div>
-                <div className='card border-0 col-md-6 col-sm-12 p-2'>
+                <div className='shadow border-0 col-md-6 col-sm-12 p-2'>
                     <img src={services} alt='' className='img-fluid'></img>
                 </div>
 

@@ -10,25 +10,24 @@ export default function Featuretwo() {
     //explain product with graph
   return (
 
-    <div className='feature bg-light pt-5'>
-        <div className='container pt-5'>
+    <div className='feature bg-light'>
+        <div className='container'>
             <div className='row d-flex'>
-            <div className='border-0 col-md-6 col-sm-12'>
+            <div className='col-md-6 col-sm-12'>
               <img src={services} alt='' className='img-fluid'></img>
-          </div>
-          <div className='col-md-5 col-sm-12 mx-3'>
+            </div>
+          <div className='col-md-6 col-sm-12'>
               <div className='ftwo row p-2'>
-                  <div className='col-6 col-sm-2'>
+                  <div className='col-4 col-sm-2'>
                       <button className='btn btn-info text-white'><BsAppIndicator/></button>
-
                   </div>
                   <div className="col-10 col-sm-10">
                       <p>Grow Your Business</p>
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-2'>
-                  <div className='col-6 col-sm-2'>
+              <div className='ftwo row p-2 '>
+                  <div className='col-4 col-sm-2'>
                       <button className='btn btn-warning text-white'><BsArrowRepeat/></button>
 
                   </div>
@@ -38,7 +37,7 @@ export default function Featuretwo() {
                   </div>
               </div>
               <div className='ftwo row p-2'>
-                  <div className='col-6 col-sm-2'>
+                  <div className='col-4 col-sm-2'>
                       <button className='btn btn-danger'><BsBriefcase/></button>
 
                   </div>
@@ -48,7 +47,7 @@ export default function Featuretwo() {
                   </div>
               </div>
               <div className='ftwo row p-2'>
-                  <div className='col-6 col-sm-2'>
+                  <div className='col-4 col-sm-2'>
                       <button className='btn btn-primary'><BsCollection/></button>
 
                   </div>

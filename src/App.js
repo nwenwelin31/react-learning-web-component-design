@@ -16,6 +16,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 
 
+
 function App() {
   useEffect(()=>{
     Aos.init( {duration:2000, once:'true',})
@@ -23,6 +24,7 @@ function App() {
   },[])
   return (
     <>
+      
       <Header></Header>
       <div data-aos="fade-up">
       <Home></Home>

@@ -1,8 +1,8 @@
 .feature{
-    padding-top: 8%;
+    padding-top: 7%;
     padding-bottom: 5%;
 }
 
 .ftwo:hover{
-   box-shadow: 0 2px 5px rgba(0,0,0,.16), 0 4px 8px rgba(0,0,0,.1);
+   box-shadow: 0 4px 8px rgba(0,0,0,.16), 0 4px 5px rgba(0,0,0,.1);
 }

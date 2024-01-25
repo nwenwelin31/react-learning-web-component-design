@@ -6,7 +6,7 @@ import './news.css';
 export default function News() {
     return (
         // Our News Section
-        <div className='news bg-light'>
+        <div className='news bg-light pb-5'>
             <div className='container'>
                 <div className='text-center mb-4'>
                     <h3 className='fs-2'>Our News</h3>
@@ -14,11 +14,11 @@ export default function News() {
                 </div>
                 <div className='row d-flex mt-5'>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
-                        <div className="d-flex">
-                            <div>
+                        <div className="row">
+                            <div className='col-4 col-sm-2'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
-                            <div className='mx-4'>
+                            <div className="col-10 col-sm-10">
                                 <label className="d-block fs-6">Posted by James</label>
                                 <span className="d-block text-secondary fs-5">Jun 14, 2020</span>
 
@@ -33,11 +33,11 @@ export default function News() {
                         </div>
                     </div>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
-                        <div class="d-flex">
-                            <div>
+                        <div class="row">
+                            <div className='col-4 col-sm-2'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
-                            <div className='mx-4'>
+                            <div className="col-10 col-sm-10">
                                 <label class="d-block fs-6">Posted by Khan</label>
                                 <span class="d-block text-secondary fs-5">Jun 14, 2020</span>
 
@@ -52,11 +52,11 @@ export default function News() {
                         </div>
                     </div>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
-                        <div className="d-flex">
-                            <div>
+                        <div className="row">
+                            <div className='col-4 col-sm-2'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
-                            <div className='mx-4'>
+                            <div className="col-10 col-sm-10">
                                 <label className="d-block fs-6">Posted by Rob</label>
                                 <span className="d-block text-secondary fs-5">Jun 14, 2020</span>
                             </div>

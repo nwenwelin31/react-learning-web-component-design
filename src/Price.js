@@ -5,13 +5,13 @@ export default function Price() {
     //Product price
     return (
         <div className='bg-light p-5' id='price'>
-            <div className='container col-md-12 p-5'>
+            <div className='container col-md-12'>
                 <div className='text-center'>
                 <h3 className='fs-2'>Pricing</h3>
-                    <p className='text-secondary'>Pricing for everyone. Choose your plan now!</p>
+                <p className='text-secondary'>Pricing for everyone. Choose your plan now!</p>
                 </div>
                 <div className='row'>
-                    <div className='col-lg-4 col-md-6 col-sm-12 mb-3'>
+                    <div className='col-md-4 col-sm-12 mb-3'>
                         <div className="card shadow border-0 rounded-5">
                             <div className="card-body text-center">
                                 <h4 className='m-4'>Fee</h4>
@@ -29,7 +29,7 @@ export default function Price() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 col-md-6 col-sm-12 mb-3'>
+                    <div className='col-md-4 col-sm-12 mb-3'>
                         <div className="card shadow border-0 rounded-5">
                             <div className="card-body text-center">
                                 <h4 className='m-4'>Standard</h4>
@@ -47,7 +47,7 @@ export default function Price() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-md-4 col-sm-12'>
                         <div className="card shadow border-0 rounded-5">
                             <div className="card-body text-center">
                                 <h4 className='m-4'>Premium</h4>
