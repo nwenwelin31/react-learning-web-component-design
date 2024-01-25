@@ -51,29 +51,29 @@ export default function Feedback() {
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
+              <div className="carousel-item">
+                <div className="row">
                   <div className="col-md-6">
-                    <p class=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
+                    <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
                         <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                       </div>
                       <div className="col-8">
-                        <small class="d-block">James Anderson</small>
-                        <small class="d-block text-secondary">Facebook, Product Lead</small>
+                        <small className="d-block">James Anderson</small>
+                        <small className="d-block text-secondary">Facebook, Product Lead</small>
                       </div>
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <p class=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
+                    <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
                         <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                       </div>
                       <div className="col-8">
-                        <small class="d-block">James Anderson</small>
-                        <small class="d-block text-secondary">Facebook, Product Lead</small>
+                        <small className="d-block">James Anderson</small>
+                        <small className="d-block text-secondary">Facebook, Product Lead</small>
                       </div>
                     </div>
                   </div>

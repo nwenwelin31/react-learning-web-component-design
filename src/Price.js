@@ -61,7 +61,7 @@ export default function Price() {
                                 </ul>  
                             </div>
                             <div class="card-body text-center">
-                                <a href="#" class="btn btn-outline-primary rounded-pill"><small>GET STARTED</small></a>
+                                <a href="#" className="btn btn-outline-primary rounded-pill"><small>GET STARTED</small></a>
                             </div>
                         </div>
                     </div>
