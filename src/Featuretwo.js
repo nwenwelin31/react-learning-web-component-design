@@ -22,7 +22,7 @@ export default function Featuretwo() {
                       <button className='btn btn-info text-white'><BsAppIndicator/></button>
 
                   </div>
-                  <div class="col-10 col-sm-10">
+                  <div className="col-10 col-sm-10">
                       <p>Grow Your Business</p>
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
@@ -32,7 +32,7 @@ export default function Featuretwo() {
                       <button className='btn btn-warning text-white'><BsArrowRepeat/></button>
 
                   </div>
-                  <div class="col-10 col-sm-10">
+                  <div className="col-10 col-sm-10">
                       <p>Build Products</p>
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
@@ -42,7 +42,7 @@ export default function Featuretwo() {
                       <button className='btn btn-danger'><BsBriefcase/></button>
 
                   </div>
-                  <div class="col-10 col-sm-10">
+                  <div className="col-10 col-sm-10">
                       <p>Success Every Day</p>
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
@@ -52,7 +52,7 @@ export default function Featuretwo() {
                       <button className='btn btn-primary'><BsCollection/></button>
 
                   </div>
-                  <div class="col-10 col-sm-10">
+                  <div className="col-10 col-sm-10">
                       <p>Bring Ideas to Life</p>
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
