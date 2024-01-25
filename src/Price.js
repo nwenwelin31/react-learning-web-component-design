@@ -2,6 +2,7 @@ import React from 'react';
 import { FaCheck } from "react-icons/fa6";
 
 export default function Price() {
+    //Product price
     return (
         <div className='bg-light p-5' id='price'>
             <div className='container col-md-12 p-5'>
@@ -9,11 +10,11 @@ export default function Price() {
                 <h3 className='fs-2'>Pricing</h3>
                     <p className='text-secondary'>Pricing for everyone. Choose your plan now!</p>
                 </div>
-                <div className='row m-5'>
-                    <div className='col-md-4'>
+                <div className='row'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 mb-3'>
                         <div class="card shadow border-0 rounded-5">
                             <div class="card-body text-center">
-                                <h4 className='m-4'>Free</h4>
+                                <h4 className='m-4'>Fee</h4>
                                 <h4 className='text-primary display-6'><sup>$</sup>0</h4>
                             </div>
                             <div class="mx-4">
@@ -28,7 +29,7 @@ export default function Price() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 mb-3'>
                         <div class="card shadow border-0 rounded-5">
                             <div class="card-body text-center">
                                 <h4 className='m-4'>Standard</h4>
@@ -46,7 +47,7 @@ export default function Price() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-lg-4 col-md-6 col-sm-12'>
                         <div class="card shadow border-0 rounded-5">
                             <div class="card-body text-center">
                                 <h4 className='m-4'>Premium</h4>

@@ -3,10 +3,10 @@ import React from 'react'
 export default function Header() {
     return (
         <div>
- 
-            <nav className="card shadow border-0 navbar navbar-expand-sm navbar-light fixed-top">
-            <div class="container-fluid" style={{ paddingLeft:'9%',paddingRight:'9%' }}>
-            <a className="navbar-brand" href="#"><strong>Launch</strong><small className='text-primary'>.</small></a>
+
+            <nav className="col-md-12 col-ms-12 card shadow border-0 navbar navbar-expand-sm navbar-light fixed-top">
+                <div className="container-fluid" style={{ paddingLeft: '9%', paddingRight: '9%' }}>
+                    <a className="navbar-brand" href="#"><strong>Launch</strong><small className='text-primary'>.</small></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -42,16 +42,16 @@ export default function Header() {
                             </li>
                         </ul>
                     </div>
-                  
-                <form class="form-inline my-lg-0">
-                    <a class="btn btn-outline-dark my-sm-0 rounded-pill" type="submit"><small>Sign in</small></a>
-                    <a class="btn btn-primary mx-2 my-sm-0 rounded-pill" type="submit"><small>Register</small></a>
-                </form>
-        
-            </div>
-                    
-                </nav>
-   
-            </div>
+
+                    <form className="form-inline my-lg-0">
+                        <a className="btn btn-outline-dark my-sm-0 rounded-pill" type="submit"><small>Sign in</small></a>
+                        <a className="btn btn-primary mx-2 my-sm-0 rounded-pill" type="submit"><small>Register</small></a>
+                    </form>
+
+                </div>
+
+            </nav>
+
+        </div>
     );
 }

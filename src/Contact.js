@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { TiWorld } from "react-icons/ti";
 
 export default function Contact() {
+    //Contact Info Section
     return (
         <div className='container pt-5' id='contact'>
             <div className='text-center mb-4 mt-5'>
@@ -14,32 +15,32 @@ export default function Contact() {
             <div className='row mt-5'>
                 <div className='col-md-8'>
                     <form>
-                        <div class="row mb-4">
-                            <div class="col-md-5 ">
+                        <div className="row mb-4">
+                            <div className="col-md-5 ">
                                 <div>
-                                    <label class="form-label text-secondary">First name</label>
-                                    <input type="text" class="form-control border-top-0 border-start-0 border-end-0" />
+                                    <label className="form-label text-secondary">First name</label>
+                                    <input type="text" className="form-control border-top-0 border-start-0 border-end-0" />
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div className="col-md-5">
                                 <div>
-                                    <label class="form-label text-secondary" for="form6Example2">Last name</label>
-                                    <input type="text" id="form6Example2" class="form-control border-top-0 border-start-0 border-end-0" />
+                                    <label className="form-label text-secondary" for="form6Example2">Last name</label>
+                                    <input type="text" id="form6Example2" className="form-control border-top-0 border-start-0 border-end-0" />
                                 </div>
                             </div>
                         </div>
 
-                        <div class="mb-4 col-md-10">
-                            <label class="form-label text-secondary" for="form6Example5">Email Address</label>
-                            <input type="email" id="form6Example5" class="form-control border-top-0 border-start-0 border-end-0" />
+                        <div className="mb-4 col-md-10">
+                            <label className="form-label text-secondary" for="form6Example5">Email Address</label>
+                            <input type="email" id="form6Example5" className="form-control border-top-0 border-start-0 border-end-0" />
                         </div>
 
-                        <div class="mb-4 col-md-10">
-                            <label class="form-label text-secondary" for="form6Example7">Message</label>
-                            <textarea class="form-control border-top-0 border-start-0 border-end-0" id="form6Example7" rows="4"></textarea>
+                        <div className="mb-4 col-md-10">
+                            <label className="form-label text-secondary" for="form6Example7">Message</label>
+                            <textarea className="form-control border-top-0 border-start-0 border-end-0" id="form6Example7" rows="4"></textarea>
                         </div>
 
-                        <a href=""  class="btn btn-primary rounded-5" type="submit"><small>SEND MESSAGE</small></a>
+                        <a href=""  className="btn btn-primary rounded-5" type="submit"><small>SEND MESSAGE</small></a>
                     </form>
                 </div>
                 <div className='col-md-4'>

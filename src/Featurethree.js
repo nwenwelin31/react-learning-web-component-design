@@ -6,6 +6,7 @@ import { BsCollection } from "react-icons/bs";
 
 
 export default function Featurethree() {
+    //product explain
     return (
         <div className='container mt-5 mb-5'>
             <div className='row mt-3 '>

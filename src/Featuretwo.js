@@ -7,14 +7,17 @@ import { BsCollection } from "react-icons/bs";
 import './features.css';
 
 export default function Featuretwo() {
+    //explain product with graph
   return (
-    <div className='feature text-bg-light pt-5'>
-        <div className='container d-flex pt-5'>
-          <div className='card border-0 shadow col-md-7 p-2' style={{ height:'100%' }}>
-              <img src={services} alt=''></img>
+
+    <div className='feature bg-light pt-5'>
+        <div className='container pt-5'>
+            <div className='row d-flex'>
+            <div className='border-0 col-md-6 col-sm-12'>
+              <img src={services} alt='' className='img-fluid'></img>
           </div>
-          <div className='col-md-5 mx-5'>
-              <div className='ftwo row p-3'>
+          <div className='col-md-5 col-sm-12 mx-3'>
+              <div className='ftwo row p-2'>
                   <div className='col-6 col-sm-2'>
                       <button className='btn btn-info text-white'><BsAppIndicator/></button>
 
@@ -24,7 +27,7 @@ export default function Featuretwo() {
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-3'>
+              <div className='ftwo row p-2'>
                   <div className='col-6 col-sm-2'>
                       <button className='btn btn-warning text-white'><BsArrowRepeat/></button>
 
@@ -34,7 +37,7 @@ export default function Featuretwo() {
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-3'>
+              <div className='ftwo row p-2'>
                   <div className='col-6 col-sm-2'>
                       <button className='btn btn-danger'><BsBriefcase/></button>
 
@@ -44,7 +47,7 @@ export default function Featuretwo() {
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-3'>
+              <div className='ftwo row p-2'>
                   <div className='col-6 col-sm-2'>
                       <button className='btn btn-primary'><BsCollection/></button>
 
@@ -56,6 +59,8 @@ export default function Featuretwo() {
               </div>
               
           </div>
+            </div>
+          
     </div>
     </div>
     

@@ -4,9 +4,10 @@ import home from './home.PNG';
 export default function Home() {
     return (
         <div className='container d-flex' style={{ paddingTop:'10%' }} id="home">
-            <div className='col-md-6'>
-                <h1 className='display-2'><b>Promote Your Products by Colorlib</b></h1>
-                <div class="mt-5 mb-4">
+            <div className='row'>
+            <div className='col-md-6 col-sm-10 mt-4'>
+                <h1 className='display-4'><b>Promote Your Products by Colorlib</b></h1>
+                <div class="mt-5 mb-2">
                     <p className='text-secondary'>Another cool free html css template by <span className='text-primary'>Colorlib</span> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</p>
                 </div>
 
@@ -16,8 +17,9 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='col-md-6' style={{ height:'100%' }}>
-            <img src={home} alt=''></img>
+            <div className='col-md-5 col-sm-10'>
+                <img src={home} alt='' className='img-fluid'></img>
+            </div>
             </div>
         </div>
     )
