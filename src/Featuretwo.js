@@ -17,7 +17,7 @@ export default function Featuretwo() {
               <img src={services} alt='' className='img-fluid'></img>
             </div>
           <div className='col-md-6 col-sm-12'>
-              <div className='ftwo row p-2'>
+              <div className='ftwo row p-2' data-aos="fade-in-right" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                   <div className='col-4 col-sm-2'>
                       <button className='btn btn-info text-white'><BsAppIndicator/></button>
                   </div>
@@ -26,7 +26,7 @@ export default function Featuretwo() {
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-2 '>
+              <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                   <div className='col-4 col-sm-2'>
                       <button className='btn btn-warning text-white'><BsArrowRepeat/></button>
 
@@ -36,7 +36,7 @@ export default function Featuretwo() {
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-2'>
+              <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                   <div className='col-4 col-sm-2'>
                       <button className='btn btn-danger'><BsBriefcase/></button>
 
@@ -46,7 +46,7 @@ export default function Featuretwo() {
                       <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                   </div>
               </div>
-              <div className='ftwo row p-2'>
+              <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                   <div className='col-4 col-sm-2'>
                       <button className='btn btn-primary'><BsCollection/></button>
 

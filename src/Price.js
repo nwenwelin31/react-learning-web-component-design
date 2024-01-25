@@ -6,13 +6,13 @@ export default function Price() {
     return (
         <div className='bg-light p-5' id='price'>
             <div className='container col-md-12'>
-                <div className='text-center'>
+                <div className='text-center' data-aos="fade-up" data-aos-once="true">
                 <h3 className='fs-2'>Pricing</h3>
                 <p className='text-secondary'>Pricing for everyone. Choose your plan now!</p>
                 </div>
-                <div className='row'>
+                <div className='row mt-5'>
                     <div className='col-md-4 col-sm-12 mb-3'>
-                        <div className="card shadow border-0 rounded-5">
+                         <div className="card shadow border-0 rounded-5">
                             <div className="card-body text-center">
                                 <h4 className='m-4'>Fee</h4>
                                 <h4 className='text-primary display-6'><sup>$</sup>0</h4>
@@ -48,7 +48,7 @@ export default function Price() {
                         </div>
                     </div>
                     <div className='col-md-4 col-sm-12'>
-                        <div className="card shadow border-0 rounded-5">
+                        <div className="card shadow border-0 rounded-5" data-aos="fade-up" data-aos-once="true" data-aos-delay="100">
                             <div className="card-body text-center">
                                 <h4 className='m-4'>Premium</h4>
                                 <h4 className='text-primary display-6'><sup>$</sup>79.99</h4>

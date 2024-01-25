@@ -8,7 +8,7 @@ export default function Advantages() {
     //Advantages using products
     return (
         <div className='container'>
-            <div className='text-center mt-5 col-12 col-sm-12'>
+            <div className='text-center mt-5 pb-4 col-12 col-sm-12'>
                 <h3 className='fs-2'>Advantage of using our products</h3>
                 <p className='text-secondary'>Far from the countries Vokalia and Consonantia</p>
             </div>
