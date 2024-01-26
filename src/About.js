@@ -21,13 +21,14 @@ export default function About() {
                     <p><i className='text-primary'><FaCheck /></i>   Far far away behind the word</p>
                     <p><i className='text-primary'><FaCheck /></i>   Far from the countries Vokalia and Consonantia</p>
                 </div>
+                {/* number count */}
                 <div className="row mt-5">
                     <span className="col-md-6">
                         <span className="d-block display-6"><strong><CountUp end={59} duration={5}/>M</strong></span>
                         <span className="d-block text-secondary"><small>MEMBERS</small></span>
                     </span>
                     <span className="col-md-6">
-                        <span className="d-block display-6"><strong>14</strong></span>
+                        <span className="d-block display-6"><strong><CountUp end={14} duration={5}/></strong></span>
                         <span className="d-block text-secondary"><small>TEAM</small></span>
                     </span>
                 </div>
