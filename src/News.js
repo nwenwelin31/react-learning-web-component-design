@@ -15,10 +15,10 @@ export default function News() {
                 <div className='row d-flex mt-5'>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
                         <div className="row">
-                            <div className='col-4 col-sm-2'>
+                            <div className='col-4 col-sm-3'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
-                            <div className="col-10 col-sm-10">
+                            <div className="col-10 col-sm-9">
                                 <label className="d-block fs-6">Posted by James</label>
                                 <span className="d-block text-secondary fs-5">Jun 14, 2020</span>
 
@@ -34,10 +34,10 @@ export default function News() {
                     </div>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
                         <div class="row">
-                            <div className='col-4 col-sm-2'>
+                            <div className='col-4 col-sm-3'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
-                            <div className="col-10 col-sm-10">
+                            <div className="col-10 col-sm-9">
                                 <label class="d-block fs-6">Posted by Khan</label>
                                 <span class="d-block text-secondary fs-5">Jun 14, 2020</span>
 
@@ -53,10 +53,10 @@ export default function News() {
                     </div>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
                         <div className="row">
-                            <div className='col-4 col-sm-2'>
+                            <div className='col-4 col-sm-3'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
-                            <div className="col-10 col-sm-10">
+                            <div className="col-10 col-sm-9">
                                 <label className="d-block fs-6">Posted by Rob</label>
                                 <span className="d-block text-secondary fs-5">Jun 14, 2020</span>
                             </div>
