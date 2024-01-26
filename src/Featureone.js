@@ -33,7 +33,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className='shadow border-0 col-md-6 col-sm-12 p-2' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-                    <img src={services} alt='' className='img-fluid'></img>
+                    <img src={services} alt='' className='img-fluid'/>
                 </div>
             </div>
             </div>

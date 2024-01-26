@@ -25,12 +25,12 @@ export default function Featuretwo() {
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div className='col-md-12 col-sm-12'>
-                                    <img src={services} alt='' className='img-fluid'></img>
+                                    <img src={services} alt='' className='img-fluid'/>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className='col-md-12 col-sm-12 order-lg-1 order-2'>
-                                    <img src={services} alt='' className='img-fluid'></img>
+                                    <img src={services} alt='' className='img-fluid'/>
                                 </div>
                             </div>
                         </div>

@@ -9,7 +9,7 @@ export default function About() {
         <div className='container pt-5' id='about'>
             <div className='row d-flex' data-aos="fade-up" data-aos-once="true" data-aos-delay="200">
                 <div className='col-md-7 col-sm-12 pt-5'>
-                    <img src={about} alt='' className='img-fluid'></img>
+                    <img src={about} alt='' className='img-fluid'/>
                 </div>
                 <div className='col-md-5 col-sm-10 pt-5'>
                     <span className='text-primary' data-aos="fade-up" data-aos-once="true"><small>ABOUT</small></span>

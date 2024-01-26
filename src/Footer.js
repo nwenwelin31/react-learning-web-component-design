@@ -12,11 +12,11 @@ export default function Footer() {
   return (
     <div className='news bg-light'>
       <div className='container'>
-          <div className='row mt-5'>
-            <div className='col-md-6'>
+          <div className='row mt-3'>
+            <div className='col-md-5'>
               <p className='fs-5'>About Launch.</p>
-              <span className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span>
-              <p className='mt-4 mb-4 fs-5'>Connect</p>
+              <span className='text-secondary'>Far far away, behind the word mountains, far from the<br/> countries Vokalia and Consonantia, there live the blind<br/> texts.</span>
+              <p className='mt-4 mb-4 mt-4 fs-5'>Connect</p>
               <button className='btn btn-secondary rounded-circle'><FaInstagram /></button>
               <button className='btn btn-secondary rounded-circle m-1'><CiTwitter /></button>
               <button className='btn btn-secondary rounded-circle'><SlSocialFacebook /></button>

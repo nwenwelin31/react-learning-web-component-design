@@ -19,7 +19,7 @@ export default function Home() {
                     </div>
 
                     <div className='col-md-6 col-sm-10 order-lg-2 order-1' data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
-                        <img src={home} alt='' className='img-fluid'></img>
+                        <img src={home} alt='' className='img-fluid'/>
                     </div>
                 </div>
             </div>

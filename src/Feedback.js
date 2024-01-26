@@ -29,7 +29,7 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
+                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
                         <small className="d-block">James Anderson</small>
@@ -41,7 +41,7 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
+                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
                         <small className="d-block">James Anderson</small>
@@ -57,7 +57,7 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
+                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
                         <small className="d-block">James Anderson</small>
@@ -69,7 +69,7 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
+                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
                         <small className="d-block">James Anderson</small>
