@@ -16,8 +16,6 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-
-
 function App() {
   useEffect(()=>{
     Aos.init( {duration:1000, offset:200,});
@@ -25,8 +23,8 @@ function App() {
   },[])
   return (
     <>
-      
       <Header></Header>
+      <div data-aos="fade-up">
       <Home></Home>
       <Featureone></Featureone>
       <Featuretwo></Featuretwo>
@@ -38,6 +36,7 @@ function App() {
       <News></News>
       <Contact></Contact>
       <Footer></Footer>
+      </div>
       
     </>
   );
