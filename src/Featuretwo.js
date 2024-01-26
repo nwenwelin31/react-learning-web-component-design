@@ -13,10 +13,10 @@ export default function Featuretwo() {
         <div className='feature bg-light'>
             <div className='container'>
                 <div className='row d-flex'>
-                    <div className='col-md-6 col-sm-12'>
+                    <div className='col-md-6 col-sm-12 order-lg-1 order-2'>
                         <img src={services} alt='' className='img-fluid'></img>
                     </div>
-                    <div className='col-md-6 col-sm-12'>
+                    <div className='col-md-6 col-sm-12 order-lg-2 order-1'>
                         <div className='ftwo row p-2' data-aos="fade-in-right" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                             <div className='col-4 col-sm-2'>
                                 <button className='btn btn-info text-white'><BsAppIndicator /></button>
