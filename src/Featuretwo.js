@@ -15,28 +15,30 @@ export default function Featuretwo() {
                 <div className='row d-flex'>
                     {/* <!-- Carousel --> */}
                     <div id="carousel-example-generic" className="carousel slide col-md-6 order-lg-1 order-2" data-bs-ride="carousel">
-                        {/* <!-- Indicators/dots --> */}
-                        <ol className="carousel-indicators carousel-indicators-numbers">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" className="active btn btn-primary"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
-                        {/* <!-- The slideshow/carousel --> */}
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <div className='col-md-12 col-sm-12'>
-                                    <img src={services} alt='' className='img-fluid'/>
+                                    <img src={services} alt='' className='img-fluid' />
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <div className='col-md-12 col-sm-12 order-lg-1 order-2'>
-                                    <img src={services} alt='' className='img-fluid'/>
+                                    <img src={services} alt='' className='img-fluid' />
                                 </div>
                             </div>
                         </div>
+                        <div className="mt-5">
+                            {/* <!-- Left and right controls/icons --> */}
+                            <button className="carousel-control-prev" type="button" data-bs-target="#carousel-example-generic" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon"></span>
+                            </button>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carousel-example-generic" data-bs-slide="next">
+                                <span className="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
                     </div>
                     <div className='col-md-6 col-sm-12 order-lg-2 order-1'>
-                    {/* Grow Your Business */}
+                        {/* Grow Your Business */}
                         <div className='ftwo row p-2' data-aos="fade-in-right" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic" data-bs-slide="prev">
                             <div className='col-4 col-sm-2'>
                                 <button className='btn btn-info text-white'><BsAppIndicator /></button>
@@ -67,7 +69,7 @@ export default function Featuretwo() {
                             </div>
                         </div>
                         {/* Bring Ideas to Life */}
-                        <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic"data-bs-slide="next">
+                        <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic" data-bs-slide="next">
                             <div className='col-4 col-sm-2'>
                                 <button className='btn btn-primary'><BsCollection /></button>
                             </div>
