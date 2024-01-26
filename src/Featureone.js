@@ -23,10 +23,10 @@ export default function Services() {
                         <p><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     </div>
                     <div className="row">
-                        <div className='col-6 col-sm-2' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+                        <div className='col-3' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
                         <img src={person} alt="Profile picture" className="rounded-circle" width={60} height={60} />
                         </div>
-                        <div className="col-8 col-sm-6">
+                        <div className="col-8">
                             <label className="d-block">James Anderson</label>
                             <small className="d-block">Facebook, Product Lead</small>
                         </div>

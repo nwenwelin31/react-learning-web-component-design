@@ -13,7 +13,7 @@ export default function Contact() {
                 <p className='text-secondary'>Far from the countries Vokalia and Consonantia</p>
             </div>
             <div className='row mt-5'>
-                <div className='col-md-8'>
+                <div className='col-md-8 mb-4'>
                     <form>
                         <div className="row mb-4">
                             <div className="col-md-5 ">
