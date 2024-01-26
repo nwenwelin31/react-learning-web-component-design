@@ -1,6 +1,7 @@
 import React from 'react'
 import about from './about.PNG';
 import { FaCheck } from "react-icons/fa6";
+import CountUp from 'react-countup';
 
 export default function About() {
     return (
@@ -22,7 +23,7 @@ export default function About() {
                 </div>
                 <div className="row mt-5">
                     <span className="col-md-6">
-                        <span className="d-block display-6"><strong>59M</strong></span>
+                        <span className="d-block display-6"><strong><CountUp end={59} duration={5}/>M</strong></span>
                         <span className="d-block text-secondary"><small>MEMBERS</small></span>
                     </span>
                     <span className="col-md-6">
