@@ -39,7 +39,7 @@ export default function Featuretwo() {
                     </div>
                     <div className='col-md-6 col-sm-12 order-lg-2 order-1'>
                         {/* Grow Your Business */}
-                        <div className='ftwo row p-2' data-aos="fade-in-right" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic" data-bs-slide="prev">
+                        <div className='ftwo row p-2' data-aos="fade-in-right" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic" data-bs-slide="next">
                             <div className='col-4 col-sm-2'>
                                 <button className='btn btn-info text-white'><BsAppIndicator /></button>
                             </div>
@@ -49,7 +49,7 @@ export default function Featuretwo() {
                             </div>
                         </div>
                         {/* Build Products */}
-                        <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic" data-bs-slide="prev">
+                        <div className='ftwo row p-2' data-aos="fade-left" data-aos-delay="200" data-aos-duration="800" data-aos-once="true" data-bs-target="#carousel-example-generic" data-bs-slide="next">
                             <div className='col-4 col-sm-2'>
                                 <button className='btn btn-warning text-white'><BsArrowRepeat /></button>
                             </div>
