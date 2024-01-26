@@ -19,10 +19,10 @@ export default function Header() {
                                     Dropdown
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><a className="dropdown-item" href="#">Testimonials</a></li>
+                                    <li><a className="dropdown-item" href="#">Menu Two</a></li>
                                     <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" href="#">Menu Three</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
