@@ -29,14 +29,12 @@ export default function Services() {
                         <div className="col-8 col-sm-6">
                             <label className="d-block">James Anderson</label>
                             <small className="d-block">Facebook, Product Lead</small>
-
                         </div>
                     </div>
                 </div>
                 <div className='shadow border-0 col-md-6 col-sm-12 p-2' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
                     <img src={services} alt='' className='img-fluid'></img>
                 </div>
-
             </div>
             </div>
         </div>

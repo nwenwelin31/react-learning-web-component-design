@@ -27,7 +27,6 @@ export default function Featurethree() {
                         <p>Build Products</p>
                         <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                     </div>
-                    
                 </div>
                 <div className='col-md-3' data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="150">
                     <div className='col-6 col-sm-2 mt-4 mb-4'>
@@ -37,7 +36,6 @@ export default function Featurethree() {
                         <p>Success Every Day</p>
                         <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                     </div>
-                    
                 </div>
                 <div className='col-md-3' data-aos="fade-up" data-aos-duration="800" data-aos-once="true" data-aos-delay="200">
                     <div className='col-6 col-sm-2 mt-4 mb-4'>
@@ -47,7 +45,6 @@ export default function Featurethree() {
                         <p>Bring Ideas to Life</p>
                         <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                     </div>
-                    
                 </div>
             </div>
         </div>
