@@ -24,17 +24,17 @@ export default function Contact() {
                             </div>
                             <div className="col-md-5">
                                 <div>
-                                    <label className="form-label text-secondary" for="form6Example2">Last name</label>
+                                    <label className="form-label text-secondary" htmlFor="form6Example2">Last name</label>
                                     <input type="text" id="form6Example2" className="form-control border-top-0 border-start-0 border-end-0" />
                                 </div>
                             </div>
                         </div>
                         <div className="mb-4 col-md-10">
-                            <label className="form-label text-secondary" for="form6Example5">Email Address</label>
+                            <label className="form-label text-secondary" htmlFor="form6Example5">Email Address</label>
                             <input type="email" id="form6Example5" className="form-control border-top-0 border-start-0 border-end-0" />
                         </div>
                         <div className="mb-4 col-md-10">
-                            <label className="form-label text-secondary" for="form6Example7">Message</label>
+                            <label className="form-label text-secondary" htmlFor="form6Example7">Message</label>
                             <textarea className="form-control border-top-0 border-start-0 border-end-0" id="form6Example7" rows="4"></textarea>
                         </div>
                         <a href="" className="btn btn-primary rounded-5" type="submit"><small>SEND MESSAGE</small></a>

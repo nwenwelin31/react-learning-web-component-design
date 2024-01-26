@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaCheck } from "react-icons/fa6";
-import person from './person.avif';
+import person from './person.png';
 import services from './services.webp';
 import './features.css';
 
@@ -24,7 +24,7 @@ export default function Services() {
                     </div>
                     <div className="row">
                         <div className='col-6 col-sm-2' data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
-                            <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
+                        <img src={person} alt="Profile picture" className="rounded-circle" width={60} height={60} />
                         </div>
                         <div className="col-8 col-sm-6">
                             <label className="d-block">James Anderson</label>

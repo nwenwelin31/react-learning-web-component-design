@@ -44,7 +44,7 @@ export default function Advantages() {
                         <div className='col-3 col-sm-2'>
                             <button className='btn btn-danger'><BsBriefcase /></button>
                         </div>
-                        <div class="col-8 col-sm-9">
+                        <div className="col-8 col-sm-9">
                             <h5>Success Every Day</h5>
                             <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                             <small className='text-primary'>Learn More</small>
@@ -56,7 +56,7 @@ export default function Advantages() {
                         <div className='col-3 col-sm-2'>
                             <button className='btn btn-primary'><BsCollection /></button>
                         </div>
-                        <div class="col-8 col-sm-9">
+                        <div className="col-8 col-sm-9">
                             <h5>Bring Ideas to Life</h5>
                             <p className='text-secondary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
                             <small className='text-primary'>Learn More</small>

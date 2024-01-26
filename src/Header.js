@@ -5,7 +5,7 @@ export default function Header() {
         <div className='bg-light fixed-top'>
             <nav className="container navbar navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Launch</a>
+                    <a className="navbar-brand" href="#">Launch<span className='text-primary'>.</span></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
-import person from './person.avif';
+import person from './person.png';
 import './news.css';
 
 export default function News() {
@@ -33,13 +33,13 @@ export default function News() {
                         </div>
                     </div>
                     <div className='card col-md-4 col-sm-10 border-0 p-3'>
-                        <div class="row">
+                        <div className="row">
                             <div className='col-4 col-sm-3'>
                                 <img src={person} alt="Image" className="rounded-circle" width={60} height={60}></img>
                             </div>
                             <div className="col-10 col-sm-9">
-                                <label class="d-block fs-6">Posted by Khan</label>
-                                <span class="d-block text-secondary fs-5">Jun 14, 2020</span>
+                                <label className="d-block fs-6">Posted by Khan</label>
+                                <span className="d-block text-secondary fs-5">Jun 14, 2020</span>
 
                             </div>
                         </div>

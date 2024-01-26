@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
-import person from './person.avif';
+import person from './person.png';
 import './feedback.css';
 export default function Feedback() {
   return (
@@ -15,11 +15,11 @@ export default function Feedback() {
             <a href='#' className='btn btn-secondary mx-2' data-bs-target="#demo" data-bs-slide="next"><FaArrowRight /></a>
           </div>
           {/* <!-- Carousel --> */}
-          <div id="demo" class="carousel slide col-md-8" data-bs-ride="carousel">
+          <div id="demo" className="carousel slide col-md-8" data-bs-ride="carousel">
             {/* <!-- Indicators/dots --> */}
             <div className="carousel-indicators">
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active bg-primary"></button>
-              <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="bg-primary"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active bg-primary"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1" className="bg-primary"></button>
             </div>
             {/* <!-- The slideshow/carousel --> */}
             <div className="carousel-inner">
@@ -82,12 +82,12 @@ export default function Feedback() {
             </div>
             <div className="mt-5">
               {/* <!-- Left and right controls/icons --> */}
-              {/* <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+              <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon"></span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button> */}
+              <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span className="carousel-control-next-icon"></span>
+              </button>
             </div>
           </div>
         </div>
