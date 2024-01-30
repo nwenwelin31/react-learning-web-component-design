@@ -11,8 +11,8 @@ export default function Feedback() {
           <div className='col-md-4'>
             <span className='text-primary'>TESTIMONIALS</span>
             <h4 className='display-6'>Our Customers Feedbck</h4>
-            <a href='#' className='btn btn-secondary' data-bs-target="#demo" data-bs-slide="prev"><FaArrowLeft /></a>
-            <a href='#' className='btn btn-secondary mx-2' data-bs-target="#demo" data-bs-slide="next"><FaArrowRight /></a>
+            <a href='' className='btn btn-secondary' data-bs-target="#demo" data-bs-slide="prev"><FaArrowLeft /></a>
+            <a href='' className='btn btn-secondary mx-2' data-bs-target="#demo" data-bs-slide="next"><FaArrowRight /></a>
           </div>
           {/* <!-- Carousel --> */}
           <div id="demo" className="carousel slide col-md-8" data-bs-ride="carousel">
@@ -29,7 +29,7 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
+                        <img src={person} alt="James" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
                         <small className="d-block">James Anderson</small>
@@ -41,10 +41,10 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
+                        <img src={person} alt="khan" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
-                        <small className="d-block">James Anderson</small>
+                        <small className="d-block">Khan Anderson</small>
                         <small className="d-block text-secondary">Facebook, Product Lead</small>
                       </div>
                     </div>
@@ -57,10 +57,10 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
+                        <img src={person} alt="rob" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
-                        <small className="d-block">James Anderson</small>
+                        <small className="d-block">Rob Anderson</small>
                         <small className="d-block text-secondary">Facebook, Product Lead</small>
                       </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Feedback() {
                     <p className=""><i>“Separated they <span className='bg-light'>live in Bookmarksgrove right at the coast of the Semantics,</span> a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</i></p>
                     <div className="row">
                       <div className="col-3">
-                        <img src={person} alt="Image" className="rounded-circle" width={60} height={60}/>
+                        <img src={person} alt="James" className="rounded-circle" width={60} height={60}/>
                       </div>
                       <div className="col-8">
                         <small className="d-block">James Anderson</small>
